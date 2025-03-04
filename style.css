@@ -1,0 +1,303 @@
+* {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+h1 a {
+	color:#fff;
+	text-decoration:none;
+	font-size:40px;
+	font-family: 'Kaushan Script', cursive;
+	
+}
+
+h1 a:hover {
+	color:#4d5478
+
+}
+
+
+body {
+	margin:0px;
+	padding-top:150px;
+}
+
+header {
+	background:#01126A;
+	height:120px;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+.container {
+	max-width:1300px;
+	margin:auto;
+}
+
+.logo{
+	float:left;
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul li{
+	float:left;
+	list-style:none;
+	font-size:25px;
+	font-family:'Raleway', sans-serif;
+	padding-right:10px;
+	font-weight:400;
+	padding-top:22px;
+	padding-right:60px;
+}
+
+.menu ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.menu ul li a:hover{
+	color:#BDBFC9;
+}
+
+.blocintroduction{
+	background: rgb(255,255,255,0.75);
+	padding: 50px 50px;
+}
+
+.mask {	
+	background-image:url("assets/introduction.png");
+	padding: 50px 50px;
+	background-size:cover;
+	background-position:left;
+	margin-top:70px;
+	margin-bottom:70px;
+}
+
+.blocintroduction h2{
+	color:#000;
+	text-align:center;
+}
+.blocintroduction p{
+	text-align:center;
+}
+
+p{
+	font-size:19px;
+	font-family:'Raleway', sans-serif;
+	color:#000;
+	line-height:29px;
+	text-align:left;
+}
+
+h2{
+	font-size:40px;
+	color:#C40000;
+	font-family:'Kaushan Script', cursive;
+	margin-top:0;	
+}
+
+.blocjourun .imgjourun,.blocjourdeux .imgjourdeux,.blocjourtrois .imgjourtrois,.blocjourquatre .imgjourquatre,.blocjourcinq .imgjourcinq,.blocjourun .textejourun,.blocjourdeux .textejourdeux,.blocjourtrois .textejourtrois,.blocjourquatre .textejourquatre,.blocjourcinq .textejourcinq {
+	float:left;	
+	width:50%;
+	display:block;
+}
+
+.blocjourun .imgjourun img,.blocjourdeux .imgjourdeux img,.blocjourtrois .imgjourtrois img,.blocjourquatre .imgjourquatre img,.blocjourcinq .imgjourcinq img{
+	max-width:100%;
+	border:15px solid rgba(223,216,171,0.3);
+	
+}
+
+.blocjourdeux,.blocjourtrois,.blocjourquatre,.blocjourcinq {
+	clear:left;
+}
+
+.blocjourun .textejourun{
+	padding-left:50px;
+	padding-top:80px;
+}
+
+.blocjourdeux .textejourdeux{
+	padding-top:190px;
+	
+}
+
+.blocjourdeux {
+	padding-top:50px;
+}
+
+.blocjourdeux .imgjourdeux {
+	text-align:center;
+}
+
+.blocjourdeux .imgjourdeux img {
+	max-width:400px;
+}
+
+
+.blocjourtrois {
+	padding-top:50px;
+}
+
+.blocjourtrois .textejourtrois{
+	padding-left:50Px;
+}
+
+.blocjourtrois .imgjourtrois {
+	text-align:center;
+}
+
+.blocjourtrois .imgjourtrois img {
+	max-width:600px;
+	margin-top:40px;
+	
+}
+
+
+
+.blocjourquatre .textejourquatre{
+	padding-top:50px;
+	padding-right:10px;
+}
+
+.blocjourquatre {
+	padding-top:50px;
+}
+
+.blocjourquatre .imgjourquatre {
+	text-align:center;
+}
+
+.blocjourquatre .imgjourquatre img {
+	max-width:600px;
+	margin-top:40px;
+}
+
+.titrebleu {
+color:#01126A;
+}	
+
+
+.blocjourcinq {
+	padding-top:90px;
+}
+
+.blocjourcinq .textejourcinq{
+	padding-right:50 px;
+	padding-top:90px;
+}
+
+.blocjourcinq .imgjourcinq {
+	text-align:center;
+}
+
+.blocjourcinq .imgjourcinq img {
+	max-width:600px;
+	margin-top:40px;
+	
+}
+
+.footer {
+	width:100%;
+	max-width:1300px;
+	margin:auto;
+}
+
+.footeremail a:hover{
+	color:#BDBFC9;
+}
+
+
+.footerentreprise a:hover{
+	color:#BDBFC9;
+}
+
+.footeremail,.footernom,.footerentreprise {
+	float:left;
+	width:33.33%;
+	text-align:center;
+	font-family:'Raleway', sans-serif;
+}
+
+
+
+.footernom p,.footerentreprise p,.footeremail a,.footerentreprise a {
+	text-align:center;
+	margin-top:0;
+	margin-bottom:0;
+	color:#fff;
+	
+}
+
+	
+.footerbackground {
+    background-color: #01126A;
+    float: left;
+    clear: left;
+    width: 100%;
+    margin-top: 70px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.footeremail a {
+	font-size:30px;
+	text-decoration:none;
+	
+}
+
+.footeremail {
+	padding-top:30px;
+	
+}
+
+.footernom p {
+	font-size:30px;
+	
+}
+
+.footernom {
+	padding-top:50px;
+}
+
+.footerentreprise a  {
+	font-size:30px;
+	padding-top:25px;
+	line-height:10px;
+	text-decoration:none;
+}
+
+.footerentreprise p {
+	font-size:30px;
+	padding-bottom:20;
+	padding-top:10px;
+	
+}
+
+.imglogoemail img {
+	max-width:40px;
+	padding-bottom:10px;
+	
+}
+		
+.imgmaitredestage img {
+	max-width:45px;
+	padding-bottom:10px;
+	
+}
+
+.logo img {
+	max-width:90px;
+	padding-top:10px;
+	float:left;	
+}
+.logo h1 {
+	float:left;	
+	padding-top:5px;
+
+}
